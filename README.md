@@ -1,11 +1,11 @@
-About sorl-thumbnail
-====================
+About sorl-thumbnail-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sorl-thumbnail-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/sorl-thumbnail
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sorl-thumbnail-feedstock/blob/main/LICENSE.txt)
 
 Summary: A django thumbnail library
 
