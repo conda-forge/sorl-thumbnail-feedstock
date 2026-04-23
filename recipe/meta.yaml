@@ -1,13 +1,13 @@
 {% set name = "sorl-thumbnail" %}
-{% set version = "12.10.0" %}
+{% set version = "12.11.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: de95a49217fdfeced222fa3ceaa01d312ee2f8aad56ba34d6c70f2dee9a84938
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 191b89c27ecb40b5c2a35549d557d17c4841c6aff439b2e17b938b91eea463b3
 
 build:
   noarch: python
